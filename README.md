@@ -10,7 +10,7 @@ Remote sensing is revolutionizing data collection and monitoring for remote site
 
 ![photo_1](https://user-images.githubusercontent.com/78721353/111085680-a5d48180-84d5-11eb-8be0-d226a4568e33.png)
 
-#### Figure 1: Raw image from NASA Landsat satallite. Goal is to the estimate the surface area of the large central lake. 
+### Figure 1: Raw image from NASA Landsat satallite. Goal is to the estimate the surface area of the large central lake. 
 
 
 # Code Examples 
