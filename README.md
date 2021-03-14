@@ -30,7 +30,39 @@ Remote sensing is revolutionizing data collection and monitoring for remote site
 
 # Code Examples 
 
+First step is loading an image using open cv. Image is loaded inverted (for some reason) needs to be inverted. 
+```Python
+image = cv2.imread("Photos/LC08_L1TP_051012_20200810_20200810_01_RT.jpg")
+image =cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
+```
 
+Next we need a geospatial compoent. I chose to use lattiude and longitude, below are the coordinates for each corner (i.e UL_lat = upper left lattiude.) This data should be easily extracted from the Landsat website.  
+```Python
+UL_lat = 69.41141
+UL_long = -119.06171
+LR_lat = 67.08418
+LR_long = -113.01863
+```
 
+Now need to specify the corners for manual cropping. After viewing the loaded image identify the approximate pixel positions of the dark body. 
 
-6875335.663082852 m^2
+```Python
+y1 = 5400
+y2 = 5700
+x1 = 2500
+x2 = 2800
+```
+
+Now we need to get the total area of the image (in meters): 
+
+```Python
+lake_region_area = get_area(UL_lat, UL_long, LR_lat, LR_long)
+```
+
+Now calling the main function which will return the area of the body. 
+
+```Python
+area = main_process(image, lake_region_area, y1, y2, x1, x2, auto_crop=True, vis=True)
+print(area)
+```
+In this case the output is 6875335.663082852 m^2
