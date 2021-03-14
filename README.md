@@ -2,10 +2,9 @@
 Finding surface area of dark bodies using the OPENCV library and publicly avalible satellite imagery 
 
 # Motivation
-Remote sensing is revolutionizing data collection and monitoring for remote sites. With very simple tools powerful insights can be gained from publically avalible data. This project is a tech demo to show how OPEN CV can be utilized for satallite image proccessing. The work presented here is not a final product and a very rough implementation. The goal is to estimate the surface area of the lake show below. 
+Remote sensing is revolutionizing data collection and monitoring for remote sites. With very simple tools powerful insights can be gained from publically available data. This project is a tech demo to show how open_cv can be utilized for satellite image processing. The work presented here is not a final product and a very rough implementation. The goal is to estimate the surface area of the lake show below. 
 
 # Features
-
 - Autocropping and image proccessing of satallite images
 - (Kinda) accurate area measurements 
 - Easily scalable for timeseries data collection 
@@ -36,7 +35,7 @@ image = cv2.imread("Photos/LC08_L1TP_051012_20200810_20200810_01_RT.jpg")
 image =cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
 ```
 
-Next we need a geospatial compoent. I chose to use lattiude and longitude, below are the coordinates for each corner (i.e UL_lat = upper left lattiude.) This data should be easily extracted from the Landsat website.  
+Next we need a geospatial component. I chose to use lattiude and longitude, below are the coordinates for each corner (i.e UL_lat = upper left lattiude.) This data should be easily extracted from the Landsat website.  
 ```Python
 UL_lat = 69.41141
 UL_long = -119.06171
