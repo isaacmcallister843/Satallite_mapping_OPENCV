@@ -25,7 +25,7 @@ Remote sensing is revolutionizing data collection and monitoring for remote site
 
 ![photo_4](https://user-images.githubusercontent.com/78721353/111085819-53479500-84d6-11eb-81a9-3e752148d6b6.png)
 
-### Figure 4: Program automatically detects largest dark body and crops the image. Measures number of blue pixels and compares it to given measuremnts to estimate surface area 
+### Figure 4: Program automatically detects largest dark body and crops the image. Measures number of blue pixels and compares it to given measurements to estimate surface area 
 
 # Code Examples 
 
