@@ -16,6 +16,10 @@ Remote sensing is revolutionizing data collection and monitoring for remote site
 
 ### Figure 2: Image is cropped with the large body at the center. This needs to be done manually to show the program where to measure. 
 
+![photo_3](https://user-images.githubusercontent.com/78721353/111085795-2d21f500-84d6-11eb-833c-8d3a6cf9e456.png)
+
+### Figure 3: K-Mean algorithem applied. 2 clusters of green and blue pixels. 
+
 # Code Examples 
 
 
