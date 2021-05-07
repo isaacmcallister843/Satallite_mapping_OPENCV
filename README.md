@@ -1,5 +1,5 @@
 # Satallite_mapping_OPENCV
-Finding surface area of dark bodies using the OPENCV library and publicly avalible satellite imagery 
+Finding surface area of dark bodies using the OPENCV library and publicly avalible satellite imagery. This is one the first projects I did with OPENCV, and one of my first python projects; some of the code is very hard to read and will give you an aneurysm. This is a neat application but will need serious rewrites. 
 
 # Motivation
 Remote sensing is revolutionizing data collection and monitoring for remote sites. With very simple tools powerful insights can be gained from publically available data. This project is a tech demo to show how open_cv can be utilized for satellite image processing. The work presented here is not a final product and a very rough implementation. The goal is to estimate the surface area of the lake show below. 
